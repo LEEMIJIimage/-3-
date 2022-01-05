@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({            
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}            
+        });
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+</head>
+<body>
+    <p>분수 나타내기 $\frac{2}{4} = \frac{1}{2}$</p>
+    <p>지수 나타내기 $3^{2} = 9$</p>
+    <p>루트 나타내기 $\sqrt{25} = 5$</p>
+</body>
+</html> 
+
+
+<!-- <!doctype html>
+<html>
+<body>
+    <a href="#t1">제목1로 이동</a> <a href="#t2">제목2로 이동</a> <a href="#t3">제목3으로 이동</a>
+    <h2><a id="t1">제목1</a></h2>
+    내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br>
+    내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br>
+    내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br>
+    내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br>
+    내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br>
+    내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br>
+    내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br>
+    내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br> 내용1입니다.<br>
+    <h2><a id="t2">제목2</a></h2>
+    내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br>
+    내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br>
+    내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br>
+    내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br>
+    내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br>
+    내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br>
+    내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br>
+    내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br> 내용2입니다.<br>
+    <h2><a id="t3">제목3</a></h2>
+    내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br>
+    내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br>
+    내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br>
+    내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br>
+    내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br>
+    내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br>
+    내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br>
+    내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br> 내용3입니다.<br>
+</body> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    인생은&nbsp;&nbsp;&nbsp;아름다워
+   <br>
+   &lt;p&gt; 태그는 단락을 구분해줍니다.
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <dfn>용어 정의</dfn>입니다.<br>
+    <var>변수</var>입니다.<br>
+    <code>컴퓨터 코드</code>입니다.<br>
+    <samp>프로그램 샘플 출력</samp>입니다.<br>
+    <kbd>키보드 입력</kbd>입니다.<br>
+    <abbr title="축약어설명">축약어</abbr>입니다.
+    <address>주소</address>입니다.
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <i>이탤릭체</i>입니다.<br>
+    <sub>아래첨자</sub>입니다.<br>
+    <sup>위첨자</sup>입니다.<br>
+    <small>작은 글자</small>입니다.<br>
+    <u>밑줄</u>입니다.<br>
+    <s>취소선</s>입니다.<br>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <b>굵게 표시되는 텍스트</b>입니다.<br>
+    <em>강조하려는 텍스트</em>입니다.<br>
+    <strong>중요한 텍스트</strong>입니다.<br>
+</body>
+</html> -->
+
+
+<!-- <!doctype html>
+<html>
+    <body>
+        <p>
+        <cite>Spider-Man</cite>은 2002년 제작된 스파이더맨 트릴로지의 첫 번째 영화이다. 주인공의 삼촌의 명언 <q>큰 힘에는 큰 책임이 따른다.</q>라는 말은 스파이더맨 시리즈를 전체의 주제를 잘 보여준다.
+        자세한 줄거리는 다음과 같다.
+        <blockquote cite="https://movie.naver.com/movie/bi/mi/basic.nhn?code=31307#story">
+        평범하고 내성적인 학생 피터 파커, 그는 우연히 유전자가 조작된 슈퍼거미에 물린다. 그 후, 피터는 손에서 거미줄이 튀어 나오고 벽을 기어 오를 수 있는 거미와 같은 능력을 갖게 된다. 다가오는 위험을 본능적으로 감지하는 초감각과 엄청난 파워까지. 피터는 짝사랑하던 '메리 제인'의 관심을 끌기 위해 멋진 스포츠카를 구입하는데 초능력을 처음 사용한다. 그러다 사랑하는 벤 아저씨의 죽음을 계기로 엄청난 파워에는 그만큼의 책임이 동반된다는 사실을 깨닫는다.
+        </blockquote>
+        </p>
+    </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <body>
+        <h1>작은 별</h1>
+        <pre>
+            반짝 반짝 작은 별 아름답게 비치네 서쪽 하늘에서도 동쪽 하늘에서도 반짝 반짝 작은 별 아름답게 비치네
+        </pre>
+    </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <body>
+        <h1>작은 별</h1>
+        <pre>
+            반짝 반짝     작은 별
+            아름답게 비치네
+            서쪽 하늘에서도
+            동쪽 하늘에서도
+            반짝 반짝     작은 별
+            아름답게 비치네
+        </pre>
+    </body>
+</html> -->
+
+<!-- <!doctype html>
+<html>
+    <body>
+        <h3>HTML</h3>
+        <p>HTML은 웹페이지를 만들기 위한 지배적인 마크업 언어다.</p>
+        <hr style="width:50%;height:10px;border:none;background-color:blue;">
+        <h3>CSS</h3>
+        <p>CSS는 마크업 언어가 실제 표시되는 방법을 기술하는 언어로, HTML과 XHTML에 주로 쓰인다.</p>
+    </body>
+</html> -->
+
+
+<!-- <!doctype html>
+<html>
+    <body>
+        <h3>HTML</h3>
+        <p>HTML은 웹페이지를 만들기 위한 지배적인 마크업 언어다.</p>
+        <hr>
+        <h3>CSS</h3>
+        <p>CSS는 마크업 언어가 실제 표시되는 방법을 기술하는 언어로, HTML과 XHTML에 주로 쓰인다.</p>
+    </body>
+</html> -->
+
+
+<!-- <!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="한국에서 많이 키우는 고양이 top3">
+        <meta name="keywords" content="코리아 숏헤어, 페르시안, 러시안블루">
+        <meta name="author" content="집사">
+    </head>
+    <body>
+        우리나라에서는 어떤 고양이를 가장 많이 키울까요? <br> 
+        1위는 코리아 숏헤어, 2위는 페르시안, 3위는 러시안블루입니다.
+    </body>
+</html> -->
+
+
+<!-- <!doctypq html>
+<html>
+    <head>
+        <base href="https://www.w3schools.com/" target="_blank">
+    </head>
+    <body>
+        <a href="tags/tag_head.asp">head 태그 알아보기</a><br>
+        <a href="css/css_selectors.asp">css 선택자 알아보기</a>
+    </body>
+</html> -->
+
+
+
+<!-- <!doctype html>
+<html>
+    <head>
+        <style>
+          img{display:block; margin:auto;}
+        </style>
+    </head>
+<body>
+   텍스트1입니다. 텍스트1입니다. 텍스트1입니다. 텍스트1입니다. 
+   텍스트1입니다. 텍스트1입니다. 
+   <img height="80px"
+   src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492__340.jpg">
+   텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 
+   텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 
+</body> -->
+
+
+
+<!-- <!doctype html>
+<html>
+    <head>
+        <style>
+            div{text-align:center;}
+        </style>
+    </head>
+<body>
+   텍스트1입니다. 텍스트1입니다. 텍스트1입니다. 텍스트1입니다. 
+   텍스트1입니다. 텍스트1입니다. 
+   <div>
+   <img height="80px"
+   src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492__340.jpg">
+   </div>
+   텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 
+   텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 
+</body> -->
+
+
+<!-- <!doctype html>
+<html>
+    <head>
+        <style>
+            img { float: left;}
+        </style>
+    </head>
+<body>
+   텍스트1입니다. 텍스트1입니다. 텍스트1입니다. 텍스트1입니다. 
+   텍스트1입니다. 텍스트1입니다. 
+   <img height="80px"
+   src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492__340.jpg">
+   텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 
+   텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 
+</body> -->
+
+
+<!-- <!doctype html>
+<html>
+<body>
+   텍스트1입니다. 텍스트1입니다. 텍스트1입니다. 텍스트1입니다. 
+   텍스트1입니다. 텍스트1입니다. 
+   <img height="80px"; align="right"; 
+   src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492__340.jpg">
+   텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 
+   텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 텍스트2입니다. 
+</body> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    h1,a{border:2px solid blue;}
+    div,span{border:2px dotted red;}
+</style>
+</head>
+<body>
+    <div><h1>제목</h1></div>
+    <span><h1>제목</h1></span>
+    본문입니다.본문입니다.본문입니다.본문입니다.
+    본문입니다.본문입니다.
+    <p>
+        <div><a href="https://blog.naver.com/mathesis_time">링크입니다
+        </a></div>
+        단락입니다.단락입니다.단락입니다.단락입니다.단락입니다.
+        단락입니다.단락입니다.단락입니다.단락입니다.단락입니다.
+    </p>
+</body>
+</html> -->
+
+
+<!-- <!doctype html>
+<html>
+<head>
+   <style>
+       h1, a{border : 2px solid blue;}
+   </style>
+</head>
+<body>
+   <h1>제목</h1>
+   본문입니다. 본문입니다. 본문입니다. 본문입니다. 
+   본문입니다. 본문입니다.  
+   <p>
+   <a href="https://blog.naver.com/mathesis_time">링크입니다.</a>
+   단락입니다. 단락입니다. 단락입니다. 단락입니다. 단락입니다. 
+   단락입니다. 단락입니다. 단락입니다. 단락입니다. 단락입니다. 
+   </p>
+</body> -->
+
+
+<!-- <!doctype html>
+<html>
+    <head>
+        <style>
+            div{background-color: lightblue;}
+        </style>
+    </head>
+<body>
+   <div><h1>제목</h1>
+   본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다. 
+   본문입니다.</div> 
+   <p>단락입니다. 단락입니다.단락입니다. 단락입니다. 단락입니다.
+   단락입니다. 단락입니다. 단락입니다. 단락입니다. 단락입니다.
+   <a href="https://www.naver.com/">링크</a>입니다.</p>
+</body> -->
+
+
+<!-- <!doctype html>
+<head>
+  <style>
+     table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+     }
+     table {width: 50%}
+     th {height: 40px; background-color: lightblue;}
+     td{text-align:center;}
+  </style>
+</head>
+<body>
+HTML 표 만들기
+<table>
+   <tr><th>이름</th><th>나이</th></tr>
+   <tr><td>홍길동</td><td>20</td></tr>
+   <tr><td>송승준</td><td>25</td></tr>
+   
+</table>
+</body> -->
+
+
+<!-- <!doctype html>
+<head>
+  <style>
+     table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+     }
+     table {width: 50%}
+     th {height: 40px}
+     td{text-align:center;}
+  </style>
+</head>
+<body>
+HTML 표 만들기
+<table>
+   <tr><th>이름</th><th>나이</th></tr>
+   <tr><td>홍길동</td><td>20</td></tr>
+   <tr><td>송승준</td><td>25</td></tr>
+   
+</table>
+</body> -->
+
+
+<!-- <!doctype html>
+<head>
+    <style>
+        table, th, td {border: 1px solid black;
+        /* border-collapse: collapse;} //border-collapse :이중 테두리 없애는 속성명 */
+    </style>
+</head>
+<body>
+HTML 표 만들기
+<table>
+   <tr><th>이름</th><th>나이</th></tr>
+   <tr><td>홍길동</td><td>123</td></tr>
+   <tr><td>송승준</td><td>55</td></tr>
+</table>
+</body>
+
+<!doctype html>
+<head>
+    <style>
+        table, th, td {border: 1px solid black;}
+    </style>
+</head>
+<body>
+HTML 표 만들기
+<table>
+   <tr><th>이름</th><th>나이</th></tr>
+   <tr><td>홍길동</td><td>123</td></tr>
+   <tr><td>송승준</td><td>55</td></tr>
+</table>
+</body> -->
+
+<!-- <!doctype html>
+<body>
+HTML 표 만들기
+<table>
+   <tr><th>이름</th><th>나이</th></tr>
+   <tr><td>김현우</td><td>20</td></tr>
+   <tr><td>이미영</td><td>25</td></tr>
+</table>
+</body>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    테스트 문서입니다.
+    <p>본문에서<span style="font-size:200%;">여기만 큰 글자</span></p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>배경 이미지</title>
+<style>
+body {
+     background-image: url("https://cdn.pixabay.com/photo/2019/08/19/15/13/eiffel-tower-4416700__340.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+</style>
+</head>
+<body>
+<h1>제목입니다.</h1>
+<p>문단입니다.</p>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>배경 이미지</title>
+<style>
+body {
+     background-image: url("https://cdn.pixabay.com/photo/2019/08/19/15/13/eiffel-tower-4416700__340.jpg");
+    background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+<h1>제목입니다.</h1>
+<p>문단입니다.</p>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>배경 이미지</title>
+<style>
+body {
+     background-image: url("https://cdn.pixabay.com/photo/2019/08/19/15/13/eiffel-tower-4416700__340.jpg");
+}
+</style>
+</head>
+<body>
+<h1>제목입니다.</h1>
+<p>문단입니다.</p>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            body {background-color: lightblue;}
+            .white {background-color: white;}
+        </style>
+    </head>
+    <body>
+        <h1 class="white">제목1입니다.</h1>
+        <p>문단1입니다.</p>
+        <p>문단2입니다.</p>
+        <h1>제목2입니다.</h1>
+        <p>문단3입니다.</p>
+        <p>문단4입니다.</p>
+    </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>들여쓰기</title>
+        <style>
+            .small {text-indent: 50px;}
+            .big {text-indent:50%;}
+        </style>
+    </head>
+    <body>
+        <p> 문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다. </p>
+        <p class="small"> 문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.</p>
+        <p class="big"> 문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.</p>
+    </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>줄간격</title>
+        <style>
+            .small {line-height:0.8;}
+            .big {line-height:200%;}
+        </style>
+    </head>
+    <body>
+        <p> 문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다.문단1입니다. </p>
+        <p class="small"> 문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.문단2입니다.</p>
+        <p class="big"> 문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.문단3입니다.</p>
+    </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>선택자 우선 순위</title>
+        <style>
+            p {color:blue;}
+            .gr {color:green;}
+            #ye {color:yellow;}
+            #bl {color:black}
+        </style>
+    </head>
+    <body>
+        <p>태그(파랑)</p>
+        <p class="gr">클래스(초록)</p>
+        <p class="gr" id="ye">클래스(초록) & id(노랑)</p>
+        <p class="gr" id="bl" style="color:red;">클래스(초록) & id(검정) & 인라인(빨강)</p>
+    </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>선택자 적용 연습1</title>
+        <style>
+            h1, p {
+                color:blue;
+                font-family: cursive;
+                text-align: center;                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>제목1</h1>
+        <p>문단1</p>
+        <p>문단2</p>
+        <h1>제목2</h1>
+        <p>문단3</p>
+        <ul>
+            <li>항목1</li>
+            <li>항목2</li>
+        </ul>
+    </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>선택자 적용 연습</title>
+        <style>
+            h1{
+                color: blue;
+                font-family: cursive;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>제목1</h1>
+        <p>문단1</p>
+        <p>문단2</p>
+        <h1>제목2</h1>
+        <p>문단3</p>
+        <ul>
+            <li>항목1</li>
+            <li>항목2</li>
+        </ul>
+    </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>문단 정렬3</title>
+        <style>
+            .cen{text-align:center;}
+            #rt{text-align:right;}
+            #jus{text-align:justify;}
+        </style>
+    </head>
+    <body>
+        <h1 id="cen">첫 번째 제목</h1>
+        <p>문단1입니다.</p>
+        <p>문단2입니다.</p>
+        <p>문단3입니다.</p>
+        <h1>두 번째 제목</h1>
+        <p>문단4입니다.</p>
+        <p id="rt">문단5입니다.</p>
+        <p id="jus">문단6입니다.</p>
+    </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>문단 정렬2</title>
+    <style>
+    .cen{text-align:center;}
+    </style>
+</head>
+<body>
+    <h1>첫 번째 제목</h1>
+    <P>문단1입니다.</P>
+    <P>문단2입니다.</P>
+    <P>문단3입니다.</P>
+    <h1 class = "cen">두 번째 제목</h1>
+    <p>문단4입니다.</p>
+    <p class = "cen">문답5입니다.</p>
+    <p class = "cen">문답6입니다.</p>
+        </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>문단 정렬</title>
+    <style>
+        h1{text-align:center;}
+        p{text-align:right}
+    </style>
+</head>
+<body>
+    <h1>첫 번째 제목</h1>
+    <P>문단1입니다.</P>
+    <P>문단2입니다.</P>
+    <P>문단3입니다.</P>
+    <h1>두 번째 제목</h1>
+    <p>문단4입니다.</p>
+    <p>문답5입니다.</p>
+    <p>문답6입니다.</p>
+        </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>여러 가지 속성</title>
+</head>
+<body>
+    <p>기본 스타일</p>
+    <p style="font-family:Monospace; color:indigo">스타일 바꾸기1</p>
+    <p style="font-family:serif; font-size:25px; color:pink">스타일 바꾸기2</p>
+    <p style="font-weight:bolder;text-decoration:underline;">스타일 바꾸기3</p>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>글자 스타일</title>
+</head>
+<body>
+    <p>기본</p>
+    <p style="font-style:italic";>글자 기울임</p>
+    <p style="text-decoration:underline";>밑줄</p>
+    <p style="text-decoration:overline;">윗줄</p>
+    <p style="text-decoration:line-through;"취소선</p> 
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>글자 굵기</title>
+</head>
+<body>
+    <p>기본</p>
+    <p style="font-weight:normal;">굵기 - normal</p> 
+    <p style="font-weight:400;">굵기 - 400</p>
+    <p style="font-weight:bold;">굵기 - bold</p>
+    <p style="font-weight:700;">굵기 - 700</p>
+    <p style="font-weight:bolder;">굵기 - bolder</p>
+    <p style="font-weight:lighter;">굵기 - lighter;</p>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>글꼴</title>
+</head>
+<body>
+    <p>기본</p>
+    <p style="font-family: Arial;">Arial - ABCDE;</p> 
+    <p style="font-family:Times;">Times - ABCDE;</p>
+    <p style="font-family: Courier;">Courier - ABCDE;</p>
+    <p style="font-family: Avant Garde;">Avant Garde - ABCDE;</p>
+    <p style="font-family:Serif;">serif - ABCDE;</p>
+    <p style="font-family:Curive;">Cursive - ABCDE;</p>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>글자색</title>
+</head>
+<body>
+    <p>글자색 = 기본</p>
+    <p style="color: red;">글자 색깔 = 빨강</p> 
+    <p style="color: rgb(255, 0, 0);">글자색 = 빨강</p>
+    <p style="color: #FF0000;">글자색 = 빨강</p>
+    <P style="color: green;">글자색 = 초록</P>
+    <p style ="color: blue ;">글자색 = 파랑</p>
+    <p style ="color: gray ;">글자색 = 회색</p>
+    <p style ="color: brown ;">글자색 = 갈색</p>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>글자크기</title>
+</head>
+<body>
+    <p>글자 크기 = 기본</p>
+    <p style="font-size: 10px;">글자크기 = 10px</p>
+    <p style="font-size: 15px;">글자크기 = 15px</p>
+    <p style="font-size: 100%;">글자크기 = 100%</p>
+    <p style="font-size: 200%;">글자크기 = 200%</p>
+    
+</body>
+</html> -->
