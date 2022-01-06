@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href= "가입 신청서 만들기.css">
+</head>
+<body>
+    <div id = 'tell'>
+    Frist name :<br>
+    <input type="text" id="name" name="name" required><br>
+    Last name :<br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email :</label><br>
+
+<input type="email" id="email"
+       pattern=".+@globex\.com" size="30" required><br>
+       Gender : <input type="radio" label for="contactChoice1">Male</label><input type="radio"label for="contactChoice2">Female</label><br>
+   Favorite : 
+    <input type="checkbox" id="scales" name="scales"
+           unchecked>
+    <label for="scales">HTML</label>
+  
+    <input type="checkbox" id="scales" name="scales"
+           unchecked>
+    <label for="scales">JAVA</label>
+ 
+    <input type="checkbox" id="scales" name="scales"
+           unchecked>
+    <label for="scales">PHP</label><br>
+  
+    <label for="University">University :</label>
+
+<select name="University" id="option">
+  
+    <option value="A University">A University</option>
+    <option value="B University">B University</option>
+    <option value="C University">C University</option>
+    <option value="D University">D University</option>
+    <option value="E University">E University</option>
+    <option value="F University">F University</option>
+</select><br>
+
+color : <input type="color" value="black"><br>
+
+<label for="Date">Date:</label>
+
+<input type="date" id="Date" name="Date"
+       value="연도-월-일"
+       min="연도-월-일" max="연도-월-일"><br><br>
+
+       <input type="submit" value="Registration">
+
+    </div>
+</body>
+</html>
