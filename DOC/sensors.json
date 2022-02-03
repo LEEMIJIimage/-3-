@@ -1,0 +1,202 @@
+[{
+  "_id": {
+    "$oid": "61fb90974856357aaf745d20"
+  },
+  "createdAt": "1643876501242",
+  "temp": 23,
+  "humidity": 8,
+  "cdc": 219,
+  "water": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb90fc4856357aaf745d22"
+  },
+  "createdAt": "1643876501242",
+  "temp": 23,
+  "humidity": 8,
+  "cdc": 235,
+  "water": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb914524a0d9f4f961b3ef"
+  },
+  "createdAt": "1643876675070",
+  "temp": 23,
+  "humidity": 8,
+  "cdc": 235,
+  "water": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb916265f67b85c8466b1c"
+  },
+  "createdAt": "1643876704112",
+  "temp": 22,
+  "humidity": 9,
+  "cdc": 238,
+  "water": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb91c00807b884d04fcb77"
+  },
+  "createdAt": "1643876798043",
+  "temp": 22,
+  "humidity": 8,
+  "cdc": 218,
+  "water": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb91d34328e413ce6e6131"
+  },
+  "createdAt": "1643876817154",
+  "temp": 22,
+  "humidity": 8,
+  "cdc": 235,
+  "water": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb91dc5c76274597287728"
+  },
+  "createdAt": "1643876825968",
+  "temp": 22,
+  "humidity": 8,
+  "cdc": 236,
+  "water": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb923235e27bed6a5ef297"
+  },
+  "temp": 22,
+  "humidity": 8,
+  "cdc": 237,
+  "water": 1,
+  "createdAt": "1643876914653",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb929735e27bed6a5ef29a"
+  },
+  "temp": 22,
+  "humidity": 8,
+  "cdc": 218,
+  "water": 1,
+  "createdAt": "1643877015058",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb92d697e90ec0dab977d7"
+  },
+  "temp": 22,
+  "humidity": 8,
+  "cdc": 244,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-03T08:31:18.034Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb933a97e90ec0dab977da"
+  },
+  "temp": 22,
+  "humidity": 8,
+  "cdc": 222,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-03T08:32:58.437Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb939e97e90ec0dab977dc"
+  },
+  "temp": 21,
+  "humidity": 8,
+  "cdc": 235,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-03T08:34:38.846Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb93a45cf3a8ec796ec4db"
+  },
+  "temp": 21,
+  "humidity": 9,
+  "cdc": 229,
+  "water": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb94085cf3a8ec796ec4dd"
+  },
+  "temp": 21,
+  "humidity": 8,
+  "cdc": 218,
+  "water": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb94377df3b486602b2d85"
+  },
+  "temp": 21,
+  "humidity": 8,
+  "cdc": 233,
+  "water": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb944234267fe1aa61b4aa"
+  },
+  "temp": 21,
+  "humidity": 8,
+  "cdc": 233,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-03T08:37:22.029Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb94a634267fe1aa61b4ad"
+  },
+  "temp": 21,
+  "humidity": 8,
+  "cdc": 235,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-03T08:39:02.429Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb950a34267fe1aa61b4af"
+  },
+  "temp": 21,
+  "humidity": 9,
+  "cdc": 234,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-03T08:40:42.834Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61fb956f34267fe1aa61b4b1"
+  },
+  "temp": 21,
+  "humidity": 8,
+  "cdc": 233,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-03T08:42:23.243Z"
+  },
+  "__v": 0
+}]
