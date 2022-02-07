@@ -42,7 +42,7 @@ function Main() {
         <ChartBox />
       </Bottom>
       {chart ? <ModalBackground /> : <None />}
-      {chart ? <Chart setChart={onclickChartButton} /> : <None />}
+      {chart ? <Chart onclickGetOut={onclickChartButton} /> : <None />}
     </Wrapper>
   );
 }

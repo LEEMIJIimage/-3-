@@ -1,5 +1,14 @@
 /* eslint-disable consistent-return */
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const fadeIn = keyframes`
+  0% {
+    background:rgba(0,0,0,.0);
+  }
+  100% {
+    background:rgba(0,0,0,0.5);
+  }
+`;
 
 const Wrapper = styled.div``;
 const Top = styled.div`
@@ -44,7 +53,9 @@ const ModalBackground = styled.div`
   bottom: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.5);
+  animation: ${fadeIn} 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
 `;
+
 export {
   Button,
   Top,
