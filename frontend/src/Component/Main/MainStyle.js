@@ -14,7 +14,7 @@ const Button = styled.button`
   background-color: transparent;
   border-radius: 3px;
   border: 4px solid white;
-  display: inline-block;
+  height: min-content;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;

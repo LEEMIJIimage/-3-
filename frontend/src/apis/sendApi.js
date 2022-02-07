@@ -3,8 +3,6 @@ import api from "./common";
 
 export default {
   startEndDate: () => {
-    return api.get(
-      "/startend"
-    );
+    return api.get("/startend");
   },
 };
