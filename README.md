@@ -8,7 +8,7 @@
 ---
 .
 
-stack
+stac
 ---
  * MongoDB , Node.js , express , React , Arduino
 
