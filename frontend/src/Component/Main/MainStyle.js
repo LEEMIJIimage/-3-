@@ -1,5 +1,8 @@
+/* eslint-disable consistent-return */
 import styled from "styled-components";
 
+const Wrapper = styled.div`
+`;
 const Top = styled.div`
   display: flex;
 
@@ -21,4 +24,11 @@ const Button = styled.button`
   text-shadow: 0px 1px 0px #4d3534;
 `;
 
-export { Button, Top };
+const None = styled.div``;
+
+const ModalBackground = styled.div`
+  position: fixed;
+  top:0; left: 0; bottom: 0; right: 0;
+  background: rgba(0, 0, 0, 0.5);
+`;
+export { Button, Top, None, Wrapper, ModalBackground };
