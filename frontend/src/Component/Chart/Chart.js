@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { HiOutlineX } from "react-icons/hi";
-import { ChartWrap, GetOutModal, TitleWrap } from "./ChartStyle";
+import { ChartWrap, GetOutModal, TitleWrap, SVG, Rect } from "./ChartStyle";
 import sendApi from "../../apis/sendApi";
 
 function Chart({ onclickGetOut }) {
@@ -10,9 +10,26 @@ function Chart({ onclickGetOut }) {
   }, []);
   return (
     <ChartWrap>
-      <rect x="3" y="3" fill="none" width="" height="162" rx="3" ry="3" />
+      <SVG
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        width="100%"
+        height="100%"
+      >
+        <Rect
+          x="0"
+          y="0"
+          fill="none"
+          width="100%"
+          height="100%"
+          rx="3"
+          ry="3"
+        />
+      </SVG>
       <TitleWrap>
-        <GetOutModal onClick={onclickGetOut}><HiOutlineX color="white" size={40} /></GetOutModal>
+        <GetOutModal onClick={onclickGetOut}>
+          <HiOutlineX color="white" size={40} />
+        </GetOutModal>
       </TitleWrap>
     </ChartWrap>
   );
