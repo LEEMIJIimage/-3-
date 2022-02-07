@@ -1,8 +1,8 @@
 import React from "react";
-import Backgrond from "./MainStyle";
+// import Backgrond from "./MainStyle";
 
 function Main() {
-  return <Backgrond />;
+  return <>root</>;
 }
 
 export default Main;
