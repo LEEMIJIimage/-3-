@@ -1,8 +1,12 @@
 import React from "react";
-// import Backgrond from "./MainStyle";
+import { Button, Top } from "./MainStyle";
 
 function Main() {
-  return <>root</>;
+  return (
+    <Top>
+      <Button> Chart</Button>
+    </Top>
+  );
 }
 
 export default Main;
