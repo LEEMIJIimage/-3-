@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Top = styled.div`
   display: flex;
-  flex-direction: row-reverse;
+
   margin-right: 50px;
   margin-top: 30px;
 `;
