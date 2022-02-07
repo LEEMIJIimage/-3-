@@ -1,12 +1,19 @@
-import express from "express"
+import express from "express";
+import cors from "cors";
 import sensorRouter from "./routers/sensorRouter.js";
-import "./db.js"
-import "./getSensor.js"
+import "./db.js";
+import "./getSensor.js";
 
 const PORT = 4000;
 
 const app = express();
 
-app.use("/", sensorRouter)
+const corsOptions = {
+  origin: "localhost:3000",
+};
 
-app.listen(PORT, ()=>console.log(`PORT : ${PORT} is opened`))
+app.use(cors(corsOptions));
+
+app.use("/", sensorRouter);
+
+app.listen(PORT, () => console.log(`PORT : ${PORT} is opened`));
