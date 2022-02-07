@@ -1,4 +1,4 @@
-import Sensor from "../Models/sensor";
+import Sensor from "../models/Sensor.js";
 
 export const home = (req, res) => {
   res.send("This is homepage");

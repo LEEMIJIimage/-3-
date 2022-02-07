@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 
-mongoose.connect("주소값");
+mongoose.connect("mongodb://127.0.0.1:27017/smartfarm");
 
 const db = mongoose.connection;
 
-db.on("error", (error) => console.log(error));
+db.on("error", (error) => console.log("DB Error ", error));
 db.once("open", () => console.log("DB is opened!"));
