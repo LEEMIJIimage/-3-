@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Chart from "./Component/Chart/Chart";
+// import Chart from "./Component/Chart/Chart";
 import Main from "./Component/Main/Main";
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
       <div>
         <Routes>
           <Route exact path="/" element={<Main />} />
-          <Route exact path="/Chart" element={<Chart />} />
         </Routes>
       </div>
     </Router>
