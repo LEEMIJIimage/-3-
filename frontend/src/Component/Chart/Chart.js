@@ -1,7 +1,7 @@
 import React from "react";
 
 function Chart() {
-  return <div>sdd</div>;
+  return <div />;
 }
 
 export default Chart;

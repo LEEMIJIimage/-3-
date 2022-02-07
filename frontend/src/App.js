@@ -1,6 +1,6 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Chart from "./Component/Chart/Chart";
 import Main from "./Component/Main/Main";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 function App() {
   return (
