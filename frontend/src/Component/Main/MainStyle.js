@@ -1,5 +1,7 @@
+/* eslint-disable consistent-return */
 import styled from "styled-components";
 
+const Wrapper = styled.div``;
 const Top = styled.div`
   display: flex;
   justify-content: space-between;
@@ -33,4 +35,23 @@ const ChartBox = styled.div`
   opacity: 0.4;
   border-radius: 20px;
 `;
-export { Button, Top, ChartBox, Bottom, Middle };
+const None = styled.div``;
+
+const ModalBackground = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+`;
+export {
+  Button,
+  Top,
+  None,
+  Wrapper,
+  ModalBackground,
+  ChartBox,
+  Bottom,
+  Middle,
+};
