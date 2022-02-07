@@ -1,8 +1,7 @@
 import React from "react";
-// import Backgrond from "./MainStyle";
+import Chart from "../Chart/Chart";
 
 function Main() {
-  return <>root</>;
 }
 
 export default Main;
