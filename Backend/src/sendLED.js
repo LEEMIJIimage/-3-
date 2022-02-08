@@ -12,18 +12,4 @@ port.on("open",()=>{
     console.log('serial open');
 });
 
-parser.on('data', function(data){
-
-    console.log('send data: '+data);
-
-});
-
-setInterval(sendDataFunc, 5000);
-
-
-function sendDataFunc(){
-    const a=50;
-    port.write("a");
-    console.log('Data Send...');
-
-};
+setTimeout(()=>port.write('o'),1000);
