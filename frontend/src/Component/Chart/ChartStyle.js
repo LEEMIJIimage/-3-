@@ -178,7 +178,7 @@ const Middle = styled.div`
   opacity: 0;
   display: flex;
   justify-content: center;
-  animation: ${modalContentFadeIn} 0.6s 1.5s linear forwards;
+  animation: ${modalContentFadeIn} 0.6s 1.9s linear forwards;
 `;
 
 const DateButton = styled.button`
