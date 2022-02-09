@@ -63,7 +63,7 @@ export const getChartData = async (req, res) => {
 
   if (req.body) {
     const datas = await Sensor.find({
-      createdAt: { $lt: startDate, $gt: endDate },
+      createdAt: { $gt: startDate, $lt: endDate },
     });
 
     datas.forEach((element) => {
