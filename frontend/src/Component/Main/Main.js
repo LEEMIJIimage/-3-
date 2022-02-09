@@ -14,7 +14,7 @@ import {
   IlluminationNumber,
   Temperature,
 } from "./MainStyle";
-import Chart from "../Chart/Chart";
+import Chart from "../Chart/ChartPage";
 
 function Main() {
   const [chart, setChart] = useState(false);

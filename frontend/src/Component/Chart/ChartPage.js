@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import DatePicker from "react-datepicker";
 import "./react-datepicker.css";
 import { HiOutlineX } from "react-icons/hi";
+import { Chart } from "react-google-charts";
 import {
   ChartWrap,
   GetOutModal,
@@ -13,10 +14,11 @@ import {
   TitleText,
   Middle,
   DateButton,
+  Content
 } from "./ChartStyle";
 import sendApi from "../../apis/sendApi";
 
-function Chart({ onclickGetOut }) {
+function ChartPage({ onclickGetOut }) {
   const [receiveStartDate, setReceiveStartDate] = useState(new Date());
   const [receiveEndDate, setReceiveEndDate] = useState(new Date());
   // const [receiveChart, setReceiveChart] = useState({});
@@ -78,8 +80,17 @@ function Chart({ onclickGetOut }) {
         />
         <DateButton onClick={onClickDateSendBtn}>검색</DateButton>
       </Middle>
+      <Content>
+        <Chart
+          chartType="ScatterChart"
+          data={[["Age", "Weight"], [4, 5.5], [8, 12]]}
+          width="100%"
+          height="400px"
+          legendToggle
+        />
+      </Content>
     </ChartWrap>
   );
 }
 
-export default Chart;
+export default ChartPage;

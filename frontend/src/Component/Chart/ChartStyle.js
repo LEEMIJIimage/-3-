@@ -195,6 +195,9 @@ const DateButton = styled.button`
     color: white;
   }
 `;
+
+const Content = styled.div``;
+
 export {
   ChartWrap,
   GetOutModal,
@@ -204,4 +207,5 @@ export {
   TitleText,
   Middle,
   DateButton,
+  Content
 };
