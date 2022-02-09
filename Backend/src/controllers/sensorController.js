@@ -5,18 +5,14 @@ let startDate;
 let endDate;
 
 export const home = async (req, res) => {
-  let dataArray = [];
   const sensors = await Sensor.findOne().sort({ _id: -1 }).limit(1);
 
-  sensors.forEach((element) => {
-    dataArray.push(element.createdAt);
-    dataArray.push(element.temp);
-    dataArray.push(element.humidity);
-    dataArray.push(element.cdc);
-    dataArray.push(element.water);
-  });
-
-  const dataObject = { dataArray };
+  const dataObject = {
+    temp: sensors.temp,
+    humidity: sensors.humidity,
+    cdc: sensors.cdc,
+    water: sensors.water,
+  };
 
   return res.send(dataObject);
 };
