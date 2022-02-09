@@ -60,14 +60,14 @@ export const getChartData = async (req, res) => {
 
     datas.forEach((element) => {
       let dataArray = [];
+      let day = element.createdAt
+        .toLocaleString()
+        .slice(6, 10)
+        .replaceAll(" ", "");
+      let time = element.createdAt.toLocaleString().slice(15);
+      let day_time = day + " " + time;
 
-      dataArray.push(
-        element.createdAt
-          .toLocaleDateString()
-          .replaceAll(".", "-")
-          .replaceAll(" ", "")
-          .slice(0, -1)
-      );
+      dataArray.push(day_time);
       dataArray.push(element.temp);
       dataArray.push(element.humidity);
       dataArray.push(element.cdc);
