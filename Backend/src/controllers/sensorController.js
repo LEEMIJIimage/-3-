@@ -1,11 +1,24 @@
 import Sensor from "../models/Sensor.js";
 import moment from "moment";
 
+let startDate;
+let endDate;
+
 export const home = async (req, res) => {
+  let dataArray = [];
   const sensors = await Sensor.findOne().sort({ _id: -1 }).limit(1);
 
-  console.log(sensors.temp);
-  return res.send(sensors);
+  sensors.forEach((element) => {
+    dataArray.push(element.createdAt);
+    dataArray.push(element.temp);
+    dataArray.push(element.humidity);
+    dataArray.push(element.cdc);
+    dataArray.push(element.water);
+  });
+
+  const dataObject = { dataArray };
+
+  return res.send(dataObject);
 };
 
 export const data = async (req, res) => {
@@ -43,12 +56,31 @@ export const startend = async (req, res) => {
   res.send(startendObject);
 };
 
-export const getChartData = (req, res) => {
-  const { startDate, endDate } = req.body;
-  console.log(startDate, endDate);
-};
+export const getChartData = async (req, res) => {
+  let sendArray = [];
 
-export const sortData = async (req, res) => {
-  const data = await Sensor.find({ createdAt: { $gt: "2022-02-05" } });
-  console.log(data);
+  const { startDate, endDate } = req.body;
+
+  if (req.body) {
+    const datas = await Sensor.find({
+      createdAt: { $lt: startDate, $gt: endDate },
+    });
+
+    datas.forEach((element) => {
+      let dataArray = [];
+      dataArray.push(element.createdAt);
+      dataArray.push(element.temp);
+      dataArray.push(element.humidity);
+      dataArray.push(element.cdc);
+      dataArray.push(element.water);
+      sendArray.push(dataArray);
+    });
+
+    const dataObject = { sendArray };
+
+    console.log(dataObject);
+    return res.send(dataObject);
+  } else {
+    return res.send("No body!");
+  }
 };
