@@ -16,4 +16,4 @@ port.on("open",()=>{
 });
 
 
-setTimeout(()=>port.write('b'),1000);
+setTimeout(()=>port.write('S60'),5000);

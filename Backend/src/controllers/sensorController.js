@@ -47,3 +47,8 @@ export const getChartData = (req, res) => {
   const { startDate, endDate } = req.body;
   console.log(startDate, endDate);
 };
+
+export const sortData = async (req, res) => {
+  const data = await Sensor.find({ createdAt: { $gt: "2022-02-05" } });
+  console.log(data);
+};
