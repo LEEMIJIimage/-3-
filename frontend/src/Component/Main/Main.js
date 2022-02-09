@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BsFillCloudSunFill } from "react-icons/bs";
 import {
   Wrapper,
   Button,
   Top,
+  Topleft,
   None,
   ModalBackground,
   Middle,
@@ -12,9 +13,13 @@ import {
   Illumination,
   IlluminationText,
   IlluminationNumber,
-  Temperature,
+  TemperatureNuber,
+  TemperatureText,
+  MiddleContent,
+  MiddleWapContent,
 } from "./MainStyle";
 import Chart from "../Chart/Chart";
+import sendApi from "../../apis/sendApi";
 
 function Main() {
   const [chart, setChart] = useState(false);
@@ -23,14 +28,21 @@ function Main() {
     setChart(false);
   };
 
+  useEffect(() => {
+    const { data } = sendApi.startEndDate();
+    console.log("data", data);
+  }, []);
+
   return (
     <Wrapper chart={chart}>
       <Top>
-        <BsFillCloudSunFill size={160} color="white" />
-        <Illumination>
-          <IlluminationText>illumination</IlluminationText>
-          <IlluminationNumber>235</IlluminationNumber>
-        </Illumination>
+        <Topleft>
+          <BsFillCloudSunFill size={160} color="white" />
+          <Illumination>
+            <IlluminationText>illumination</IlluminationText>
+            <IlluminationNumber>265</IlluminationNumber>
+          </Illumination>
+        </Topleft>
         <Button
           onClick={() => {
             setChart(true);
@@ -41,8 +53,19 @@ function Main() {
         </Button>
       </Top>
       <Middle>
-        <Temperature> 23 Current temperature</Temperature>
+        <MiddleWapContent>
+          <MiddleContent>
+            <TemperatureNuber> 23 </TemperatureNuber>
+            <TemperatureText>
+              {" "}
+              Current
+              <br />
+              Temperatur{" "}
+            </TemperatureText>
+          </MiddleContent>
+        </MiddleWapContent>
       </Middle>
+
       <Bottom>
         <ChartBox />
         <ChartBox />
