@@ -223,4 +223,1504 @@
     "$date": "2022-02-03T08:45:34.783Z"
   },
   "__v": 0
+},{
+  "_id": {
+    "$oid": "620346cd95671218e9f0f81b"
+  },
+  "temp": 14,
+  "humidity": 21,
+  "cdc": 207,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:45:01.064Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620346eb95671218e9f0f81d"
+  },
+  "temp": 13,
+  "humidity": 21,
+  "cdc": 204,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:45:31.445Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203470995671218e9f0f81f"
+  },
+  "temp": 13,
+  "humidity": 21,
+  "cdc": 207,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:46:01.833Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203475abe50f3aeab760113"
+  },
+  "temp": 13,
+  "humidity": 22,
+  "cdc": 213,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T04:47:22.184Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034778be50f3aeab760115"
+  },
+  "temp": 13,
+  "humidity": 22,
+  "cdc": 214,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:47:52.561Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034796be50f3aeab760117"
+  },
+  "temp": 13,
+  "humidity": 22,
+  "cdc": 211,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T04:48:22.949Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620347b5be50f3aeab760119"
+  },
+  "temp": 12,
+  "humidity": 22,
+  "cdc": 211,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:48:53.338Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620347d3be50f3aeab76011b"
+  },
+  "temp": 12,
+  "humidity": 22,
+  "cdc": 204,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T04:49:23.730Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620347f2be50f3aeab76011d"
+  },
+  "temp": 12,
+  "humidity": 22,
+  "cdc": 203,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:49:54.118Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034810be50f3aeab76011f"
+  },
+  "temp": 12,
+  "humidity": 22,
+  "cdc": 214,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:50:24.503Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203482ebe50f3aeab760121"
+  },
+  "temp": 12,
+  "humidity": 22,
+  "cdc": 206,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:50:54.892Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203484dbe50f3aeab760123"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 202,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:51:25.281Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203486bbe50f3aeab760125"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 202,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T04:51:55.671Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203488abe50f3aeab760127"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 199,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:52:26.061Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620348a8be50f3aeab760129"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 213,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:52:56.449Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620348c6be50f3aeab76012b"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 215,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:53:26.839Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620348e5be50f3aeab76012d"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 203,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T04:53:57.224Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034903be50f3aeab76012f"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 207,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:54:27.614Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034922be50f3aeab760131"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 201,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T04:54:58.004Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034940be50f3aeab760133"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 199,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:55:28.393Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203495ebe50f3aeab760135"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 202,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T04:55:58.782Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203497dbe50f3aeab760137"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 212,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:56:29.171Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203499bbe50f3aeab760139"
+  },
+  "temp": 11,
+  "humidity": 23,
+  "cdc": 206,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T04:56:59.561Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620349b9be50f3aeab76013b"
+  },
+  "temp": 11,
+  "humidity": 24,
+  "cdc": 211,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:57:29.951Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620349d8be50f3aeab76013d"
+  },
+  "temp": 11,
+  "humidity": 24,
+  "cdc": 212,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:58:00.340Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620349f6be50f3aeab76013f"
+  },
+  "temp": 11,
+  "humidity": 24,
+  "cdc": 208,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:58:30.729Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034a15be50f3aeab760141"
+  },
+  "temp": 11,
+  "humidity": 24,
+  "cdc": 210,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T04:59:01.119Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034a33be50f3aeab760143"
+  },
+  "temp": 11,
+  "humidity": 24,
+  "cdc": 201,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T04:59:31.508Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034a51be50f3aeab760145"
+  },
+  "temp": 10,
+  "humidity": 24,
+  "cdc": 210,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:00:01.898Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034a70be50f3aeab760147"
+  },
+  "temp": 10,
+  "humidity": 24,
+  "cdc": 211,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:00:32.287Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034a8ebe50f3aeab760149"
+  },
+  "temp": 10,
+  "humidity": 24,
+  "cdc": 202,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:01:02.676Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034aadbe50f3aeab76014b"
+  },
+  "temp": 10,
+  "humidity": 24,
+  "cdc": 202,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:01:33.066Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034acbbe50f3aeab76014d"
+  },
+  "temp": 10,
+  "humidity": 24,
+  "cdc": 209,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:02:03.455Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034ae9be50f3aeab76014f"
+  },
+  "temp": 10,
+  "humidity": 24,
+  "cdc": 213,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:02:33.844Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034b08be50f3aeab760151"
+  },
+  "temp": 10,
+  "humidity": 24,
+  "cdc": 210,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:03:04.234Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034b26be50f3aeab760153"
+  },
+  "temp": 10,
+  "humidity": 25,
+  "cdc": 201,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:03:34.624Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034b45be50f3aeab760155"
+  },
+  "temp": 10,
+  "humidity": 25,
+  "cdc": 209,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:04:05.013Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034b63be50f3aeab760157"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 211,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:04:35.399Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034b81be50f3aeab760159"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 210,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:05:05.788Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034ba0be50f3aeab76015b"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 202,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:05:36.178Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034bbebe50f3aeab76015d"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 210,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:06:06.567Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034bdcbe50f3aeab76015f"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 219,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:06:36.957Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034bfbbe50f3aeab760161"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 215,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:07:07.346Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034c19be50f3aeab760163"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 208,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:07:37.735Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034c38be50f3aeab760165"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 201,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:08:08.125Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034c56be50f3aeab760167"
+  },
+  "temp": 8,
+  "humidity": 25,
+  "cdc": 205,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:08:38.514Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034c74be50f3aeab760169"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 200,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:09:08.907Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034c93be50f3aeab76016b"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 213,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:09:39.297Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034cb1be50f3aeab76016d"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 210,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:10:09.687Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034cd0be50f3aeab76016f"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 213,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:10:40.076Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034ceebe50f3aeab760171"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 215,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:11:10.466Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034d0cbe50f3aeab760173"
+  },
+  "temp": 9,
+  "humidity": 25,
+  "cdc": 214,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:11:40.855Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034d2bbe50f3aeab760175"
+  },
+  "temp": 8,
+  "humidity": 25,
+  "cdc": 209,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:12:11.245Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034d49be50f3aeab760177"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 215,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:12:41.635Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034d68be50f3aeab760179"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 209,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:13:12.023Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034d86be50f3aeab76017b"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 207,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:13:42.413Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034da4be50f3aeab76017d"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 202,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:14:12.802Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034dc3be50f3aeab76017f"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 202,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:14:43.192Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034de1be50f3aeab760181"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 202,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:15:13.581Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034dffbe50f3aeab760183"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 207,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:15:43.971Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034e1ebe50f3aeab760185"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 206,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:16:14.364Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034e3cbe50f3aeab760187"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 205,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:16:44.754Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034e5bbe50f3aeab760189"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 216,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:17:15.143Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034e79be50f3aeab76018b"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 211,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:17:45.533Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034e97be50f3aeab76018d"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 220,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:18:15.922Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034eb6be50f3aeab76018f"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 207,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:18:46.312Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034ed4be50f3aeab760191"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 202,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:19:16.701Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034ef3be50f3aeab760193"
+  },
+  "temp": 8,
+  "humidity": 26,
+  "cdc": 213,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:19:47.090Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034f11be50f3aeab760195"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 203,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:20:17.484Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034f2fbe50f3aeab760197"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 218,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:20:47.873Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034f4ebe50f3aeab760199"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 206,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:21:18.263Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034f6cbe50f3aeab76019b"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 204,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:21:48.653Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034f8bbe50f3aeab76019d"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 219,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:22:19.042Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034fa9be50f3aeab76019f"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 213,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:22:49.435Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034fc7be50f3aeab7601a1"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 205,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:23:19.825Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62034fe6be50f3aeab7601a3"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 203,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:23:50.214Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035004be50f3aeab7601a5"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 215,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:24:20.604Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035022be50f3aeab7601a7"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 218,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:24:50.993Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035041be50f3aeab7601a9"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 205,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:25:21.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203505fbe50f3aeab7601ab"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 203,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:25:51.776Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203507ebe50f3aeab7601ad"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 203,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:26:22.166Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203509cbe50f3aeab7601af"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 207,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:26:52.555Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620350babe50f3aeab7601b1"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 212,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:27:22.944Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620350d9be50f3aeab7601b3"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 211,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:27:53.334Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620350f7be50f3aeab7601b5"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 204,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:28:23.724Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035116be50f3aeab7601b7"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 212,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:28:54.117Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035134be50f3aeab7601b9"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 211,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:29:24.506Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035152be50f3aeab7601bb"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 233,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:29:54.896Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035171be50f3aeab7601bd"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 209,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:30:25.285Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203518fbe50f3aeab7601bf"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 217,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:30:55.679Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620351aebe50f3aeab7601c1"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 213,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:31:26.068Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620351ccbe50f3aeab7601c3"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 205,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:31:56.458Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620351eabe50f3aeab7601c5"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 205,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:32:26.847Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035209be50f3aeab7601c7"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 210,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:32:57.241Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035227be50f3aeab7601c9"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 218,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:33:27.630Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035246be50f3aeab7601cb"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 209,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:33:58.019Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035264be50f3aeab7601cd"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 209,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:34:28.409Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035282be50f3aeab7601cf"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 219,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:34:58.803Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620352a1be50f3aeab7601d1"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 210,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:35:29.192Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620352bfbe50f3aeab7601d3"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 218,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:35:59.582Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620352ddbe50f3aeab7601d5"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 221,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:36:29.971Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620352fcbe50f3aeab7601d7"
+  },
+  "temp": 7,
+  "humidity": 27,
+  "cdc": 207,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:37:00.361Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203531abe50f3aeab7601d9"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 220,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:37:30.754Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035339be50f3aeab7601db"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 211,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:38:01.143Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035357be50f3aeab7601dd"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 207,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:38:31.533Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035375be50f3aeab7601df"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 206,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:39:01.927Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035394be50f3aeab7601e1"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 213,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:39:32.316Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620353b2be50f3aeab7601e3"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 217,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:40:02.705Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620353d1be50f3aeab7601e5"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 208,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:40:33.095Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620353efbe50f3aeab7601e7"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 208,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:41:03.484Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203540dbe50f3aeab7601e9"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 212,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:41:33.878Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203542cbe50f3aeab7601eb"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 220,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:42:04.268Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203544abe50f3aeab7601ed"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 215,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:42:34.656Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035469be50f3aeab7601ef"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 211,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:43:05.046Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035487be50f3aeab7601f1"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 207,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:43:35.435Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620354a5be50f3aeab7601f3"
+  },
+  "temp": 6,
+  "humidity": 27,
+  "cdc": 213,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:44:05.825Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620354c4be50f3aeab7601f5"
+  },
+  "temp": 6,
+  "humidity": 26,
+  "cdc": 210,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:44:36.214Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620354e2be50f3aeab7601f7"
+  },
+  "temp": 6,
+  "humidity": 26,
+  "cdc": 215,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:45:06.604Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035500be50f3aeab7601f9"
+  },
+  "temp": 6,
+  "humidity": 26,
+  "cdc": 208,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:45:36.994Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203551fbe50f3aeab7601fb"
+  },
+  "temp": 6,
+  "humidity": 26,
+  "cdc": 212,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:46:07.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203553dbe50f3aeab7601fd"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 213,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:46:37.772Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203555cbe50f3aeab7601ff"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 222,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:47:08.161Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203557abe50f3aeab760201"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 209,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:47:38.547Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62035598be50f3aeab760203"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 208,
+  "water": 0,
+  "createdAt": {
+    "$date": "2022-02-09T05:48:08.937Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620355b7be50f3aeab760205"
+  },
+  "temp": 7,
+  "humidity": 26,
+  "cdc": 209,
+  "water": 1,
+  "createdAt": {
+    "$date": "2022-02-09T05:48:39.327Z"
+  },
+  "__v": 0
 }]
