@@ -21,7 +21,7 @@ import sendApi from "../../apis/sendApi";
 function ChartPage({ onclickGetOut }) {
   const [receiveStartDate, setReceiveStartDate] = useState(new Date());
   const [receiveEndDate, setReceiveEndDate] = useState(new Date());
-  // const [receiveChart, setReceiveChart] = useState({});
+  const [receiveChart, setReceiveChart] = useState({});
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
 
@@ -39,7 +39,7 @@ function ChartPage({ onclickGetOut }) {
   const onClickDateSendBtn = async () => {
     console.log("startDate", startDate, "endDate", endDate);
     const { data } = await sendApi.getChartData({ startDate: startDate, endDate: endDate });
-    console.log("data", data);
+    setReceiveChart(data.sendArray);
   };
 
   return (
@@ -84,8 +84,30 @@ function ChartPage({ onclickGetOut }) {
       </Middle>
       <Content>
         <Chart
-          chartType="ScatterChart"
-          data={[["Age", "Weight"], [4, 5.5], [8, 12]]}
+          chartType="LineChart"
+          rows={receiveChart}
+          columns={[
+            {
+              type: "date",
+              label: "Date"
+            },
+            {
+              type: "number",
+              label: "temp"
+            },
+            {
+              type: "number",
+              label: "humidity"
+            },
+            {
+              type: "number",
+              label: "cdc"
+            },
+            {
+              type: "number",
+              label: "Soil moisture."
+            }
+          ]}
           width="100%"
           height="400px"
           legendToggle
