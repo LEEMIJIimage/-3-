@@ -1,3 +1,4 @@
+/* eslint-disable no-sequences */
 /* eslint-disable object-shorthand */
 /* eslint-disable quote-props */
 import React, { useEffect, useState } from "react";
@@ -14,7 +15,8 @@ import {
   TitleText,
   Middle,
   DateButton,
-  Content
+  Content,
+  None
 } from "./ChartStyle";
 import sendApi from "../../apis/sendApi";
 
@@ -27,19 +29,27 @@ function ChartPage({ onclickGetOut }) {
 
   useEffect(async () => {
     const { data } = await sendApi.startEndDate();
-    console.log("data", data);
     setReceiveStartDate(new Date(data.firstData_createdAt));
     setReceiveEndDate(new Date(data.lastData_createdAt));
     setStartDate(new Date(data.firstData_createdAt));
     setEndDate(new Date(data.lastData_createdAt));
 
-    console.log(receiveStartDate, receiveEndDate);
-  }, []);
+    console.log(receiveChart);
+  }, [receiveChart]);
 
   const onClickDateSendBtn = async () => {
     console.log("startDate", startDate, "endDate", endDate);
     const { data } = await sendApi.getChartData({ startDate: startDate, endDate: endDate });
-    setReceiveChart(data.sendArray);
+    setReceiveChart([["date", "temp", "humidity", "cdc", "Soil moisture"]].concat(data.sendArray));
+  };
+
+  const LineChartOptions = {
+    hAxis: {
+      title: "Time",
+    },
+    series: {
+      1: { curveType: "function" },
+    },
   };
 
   return (
@@ -83,35 +93,14 @@ function ChartPage({ onclickGetOut }) {
         <DateButton onClick={onClickDateSendBtn}>검색</DateButton>
       </Middle>
       <Content>
-        <Chart
+        {receiveChart.length ? <Chart
           chartType="LineChart"
-          rows={receiveChart}
-          columns={[
-            {
-              type: "date",
-              label: "Date"
-            },
-            {
-              type: "number",
-              label: "temp"
-            },
-            {
-              type: "number",
-              label: "humidity"
-            },
-            {
-              type: "number",
-              label: "cdc"
-            },
-            {
-              type: "number",
-              label: "Soil moisture."
-            }
-          ]}
+          data={receiveChart}
           width="100%"
-          height="400px"
+          height="500px"
+          options={LineChartOptions}
           legendToggle
-        />
+        /> : <None />}
       </Content>
     </ChartWrap>
   );

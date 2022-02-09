@@ -198,7 +198,11 @@ const DateButton = styled.button`
 
 const Content = styled.div`
 z-index: -1;
+width: 100%;
+height: 100%;
 `;
+
+const None = styled.div``;
 
 export {
   ChartWrap,
@@ -209,5 +213,6 @@ export {
   TitleText,
   Middle,
   DateButton,
-  Content
+  Content,
+  None
 };
