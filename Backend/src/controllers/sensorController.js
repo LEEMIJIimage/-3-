@@ -31,7 +31,7 @@ export const data = async (req, res) => {
 export const startend = async (req, res) => {
   const firstData = await Sensor.findOne();
   const lastData = await Sensor.find().sort({ _id: -1 }).limit(1);
-  console.log("ddd", lastData)
+  console.log("ddd", lastData);
 
   const firstData_createdAt = firstData.createdAt;
   const lastData_createdAt = lastData[0].createdAt;
@@ -45,4 +45,9 @@ export const startend = async (req, res) => {
   };
 
   res.send(startendObject);
+};
+
+export const getChartData = (req, res) => {
+  const { startDate, endDate } = req.body;
+  console.log(startDate, endDate);
 };
