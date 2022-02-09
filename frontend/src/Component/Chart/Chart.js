@@ -1,3 +1,5 @@
+/* eslint-disable object-shorthand */
+/* eslint-disable quote-props */
 import React, { useEffect, useState } from "react";
 import DatePicker from "react-datepicker";
 import "./react-datepicker.css";
@@ -31,8 +33,8 @@ function Chart({ onclickGetOut }) {
   }, []);
 
   const onClickDateSendBtn = async () => {
-    const { data } = await sendApi.startEndDate({ startDate, endDate });
     console.log("startDate", startDate, "endDate", endDate);
+    const { data } = await sendApi.getChartData({ startDate: startDate, endDate: endDate });
     console.log("data", data);
   };
 

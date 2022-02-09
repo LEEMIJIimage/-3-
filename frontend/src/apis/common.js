@@ -7,6 +7,8 @@ export default {
   },
 
   post: (url, req) => {
+    console.log("req.body", req);
+
     return axios.post(API_URL.apiUrl + url, req);
   },
 };

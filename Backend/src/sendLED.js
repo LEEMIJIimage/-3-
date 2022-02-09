@@ -12,4 +12,4 @@ port.on("open",()=>{
     console.log('serial open');
 });
 
-setTimeout(()=>port.write('o'),1000);
+setTimeout(()=>port.write('L50'),5000);
