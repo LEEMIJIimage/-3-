@@ -5,7 +5,16 @@ export default {
   startEndDate: () => {
     return api.get("/startend");
   },
-  getChartData: (req) => {
-    return api.post("/getChartData", req);
+  getChartdata: (req) => {
+    return api.post("/startend", req);
+  },
+  Alldata: () => {
+    return api.get("/");
+  },
+  lightOn: () => {
+    return api.get("/lightOn");
+  },
+  lightOff: () => {
+    return api.get("/lightOff");
   },
 };

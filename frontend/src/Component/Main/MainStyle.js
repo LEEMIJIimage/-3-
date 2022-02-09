@@ -104,6 +104,19 @@ const ChartBox = styled.div`
   background-color: white;
   opacity: 0.4;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+`;
+const ChartBox2 = styled.div`
+  width: 280px;
+  height: 230px;
+  background-color: white;
+  opacity: 0.4;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
 `;
 const None = styled.div``;
 
@@ -114,6 +127,22 @@ const ModalBackground = styled.div`
   bottom: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.5);
+`;
+const HumidityNumber = styled.p`
+  font-size 40px;
+  `;
+const Button2 = styled.button`
+  box-shadow: inset 0px -1px 0px 0px #9fb4f2;
+  background-color: transparent;
+  border: 5px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 22px 47px;
+  text-decoration: none;
 `;
 export {
   Button,
@@ -132,4 +161,7 @@ export {
   IlluminationNumber,
   MiddleContent,
   MiddleWapContent,
+  HumidityNumber,
+  Button2,
+  ChartBox2,
 };
