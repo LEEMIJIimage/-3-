@@ -196,7 +196,9 @@ const DateButton = styled.button`
   }
 `;
 
-const Content = styled.div``;
+const Content = styled.div`
+z-index: -1;
+`;
 
 export {
   ChartWrap,

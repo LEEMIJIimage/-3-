@@ -30,6 +30,8 @@ function ChartPage({ onclickGetOut }) {
     console.log("data", data);
     setReceiveStartDate(new Date(data.firstData_createdAt));
     setReceiveEndDate(new Date(data.lastData_createdAt));
+    setStartDate(new Date(data.firstData_createdAt));
+    setEndDate(new Date(data.lastData_createdAt));
 
     console.log(receiveStartDate, receiveEndDate);
   }, []);
@@ -66,14 +68,14 @@ function ChartPage({ onclickGetOut }) {
       </TitleWrap>
       <Middle>
         <DatePicker
-          selected={receiveStartDate} // 날짜 state
+          selected={startDate} // 날짜 state
           onChange={(date) => setStartDate(date)} // 날짜 설정 콜백 함수
           minDate={receiveStartDate}
           maxDate={receiveEndDate}
         />
         ~
         <DatePicker
-          selected={receiveEndDate} // 날짜 state
+          selected={endDate} // 날짜 state
           onChange={(date) => setEndDate(date)} // 날짜 설정 콜백 함수
           minDate={receiveStartDate}
           maxDate={receiveEndDate}
