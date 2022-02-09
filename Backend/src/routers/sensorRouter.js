@@ -1,5 +1,5 @@
 import express from "express";
-import { home, data, startend } from "../controllers/sensorController.js";
+import { home, data, startend, getChartData } from "../controllers/sensorController.js";
 
 const sensorRouter = express.Router();
 
