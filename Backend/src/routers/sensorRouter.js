@@ -6,5 +6,6 @@ const sensorRouter = express.Router();
 sensorRouter.get("/", home);
 sensorRouter.get("/data", data);
 sensorRouter.get("/startend", startend);
+sensorRouter.post("/getChartData", getChartData);
 
 export default sensorRouter;
