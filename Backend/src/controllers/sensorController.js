@@ -1,9 +1,6 @@
 import Sensor from "../models/Sensor.js";
 import moment from "moment";
 
-let startDate;
-let endDate;
-
 export const home = async (req, res) => {
   const sensors = await Sensor.findOne().sort({ _id: -1 }).limit(1);
 
@@ -32,7 +29,6 @@ export const data = async (req, res) => {
   });
 
   const dataObject = { sendArray };
-  console.log(sendArray);
 
   return res.send(dataObject);
 };
@@ -64,7 +60,14 @@ export const getChartData = async (req, res) => {
 
     datas.forEach((element) => {
       let dataArray = [];
-      dataArray.push(element.createdAt);
+
+      dataArray.push(
+        element.createdAt
+          .toLocaleDateString()
+          .replaceAll(".", "-")
+          .replaceAll(" ", "")
+          .slice(0, -1)
+      );
       dataArray.push(element.temp);
       dataArray.push(element.humidity);
       dataArray.push(element.cdc);
