@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { BsFillCloudSunFill } from "react-icons/bs";
-import { IoWaterOutline } from "react-icons/io5";
+import { WiHumidity } from "react-icons/wi";
 import { FaTemperatureLow } from "react-icons/fa";
+import { GiPlantWatering } from "react-icons/gi";
 import {
   Wrapper,
   Button,
@@ -11,6 +12,7 @@ import {
   ModalBackground,
   Middle,
   ChartBox,
+  MiniChartBox1,
   Bottom,
   Illumination,
   IlluminationText,
@@ -21,7 +23,12 @@ import {
   MiddleWapContent,
   HumidityNumber,
   Button2,
+  ChartBox3,
   ChartBox2,
+  HumidityText,
+  WateringNumber,
+  MiniChartBox2,
+  WateringText,
 } from "./MainStyle";
 import Chart from "../Chart/ChartPage";
 import sendApi from "../../apis/sendApi";
@@ -73,13 +80,12 @@ function Main() {
           Chart
         </Button>
       </Top>
+
       <Middle>
         <MiddleWapContent>
           <MiddleContent>
-            <TemperatureNuber>
-              {" "}
-              {Tep} <FaTemperatureLow />
-            </TemperatureNuber>
+            <TemperatureNuber> {Tep}</TemperatureNuber>
+            <FaTemperatureLow size={60} margin- />
             <TemperatureText>
               {" "}
               Current
@@ -92,14 +98,25 @@ function Main() {
 
       <Bottom>
         <ChartBox>
-          <IoWaterOutline size={70} color="black" />
-          <HumidityNumber>{Humidity}</HumidityNumber>
+          <MiniChartBox1>
+            <HumidityNumber>{Humidity}</HumidityNumber>
+            <WiHumidity size={70} color="black" />
+          </MiniChartBox1>
+          <HumidityText>Humidity</HumidityText>
         </ChartBox>
-        <ChartBox>{Water}</ChartBox>
+
         <ChartBox2>
+          <MiniChartBox2>
+            <WateringNumber>{Water}</WateringNumber>
+            <GiPlantWatering size={70} />
+          </MiniChartBox2>
+          <WateringText>Soil moisture.</WateringText>
+        </ChartBox2>
+
+        <ChartBox3>
           <Button2 onClick={onClickOff}>Turn off the light.</Button2>{" "}
           <Button2 onClick={onClickOn}>Turn on the light.</Button2>{" "}
-        </ChartBox2>
+        </ChartBox3>
       </Bottom>
       {chart ? <ModalBackground /> : <None />}
       {chart ? <Chart onclickGetOut={onclickChartButton} /> : <None />}
