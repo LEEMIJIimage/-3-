@@ -2,7 +2,6 @@ import Sensor from "../models/Sensor.js";
 import moment from "moment";
 
 export const home = async (req, res) => {
-  let sendArray = [];
   const sensors = await Sensor.findOne().sort({ _id: -1 }).limit(1);
 
   console.log(sensors.temp);
