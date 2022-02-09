@@ -5,4 +5,7 @@ export default {
   startEndDate: () => {
     return api.get("/startend");
   },
+  getChartData: (req) => {
+    return api.post("/getChartData", req);
+  },
 };

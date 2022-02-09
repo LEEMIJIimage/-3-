@@ -9,6 +9,10 @@ import {
   Middle,
   ChartBox,
   Bottom,
+  Illumination,
+  IlluminationText,
+  IlluminationNumber,
+  Temperature,
 } from "./MainStyle";
 import Chart from "../Chart/Chart";
 
@@ -22,9 +26,11 @@ function Main() {
   return (
     <Wrapper chart={chart}>
       <Top>
-        <div>
-          <BsFillCloudSunFill size={150} color="white" />
-        </div>
+        <BsFillCloudSunFill size={160} color="white" />
+        <Illumination>
+          <IlluminationText>illumination</IlluminationText>
+          <IlluminationNumber>235</IlluminationNumber>
+        </Illumination>
         <Button
           onClick={() => {
             setChart(true);
@@ -34,7 +40,9 @@ function Main() {
           Chart
         </Button>
       </Top>
-      <Middle />
+      <Middle>
+        <Temperature> 23 Current temperature</Temperature>
+      </Middle>
       <Bottom>
         <ChartBox />
         <ChartBox />
