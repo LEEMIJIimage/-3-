@@ -31,8 +31,9 @@ function Chart({ onclickGetOut }) {
   }, []);
 
   const onClickDateSendBtn = async () => {
-    // const { data } = await sendApi.startEndDate({"startDate": startDate, "endDate": endDate});
+    const { data } = await sendApi.startEndDate({ startDate, endDate });
     console.log("startDate", startDate, "endDate", endDate);
+    console.log("data", data);
   };
 
   return (
