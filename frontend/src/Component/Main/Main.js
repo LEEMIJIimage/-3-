@@ -79,7 +79,7 @@ function Main() {
   };
   const onClickOff = async () => {
     const { data } = await sendApi.lightOff();
-    alert(data);
+    alert(`Light off ${data}`);
   };
 
   return (

@@ -16,9 +16,8 @@ port.on("open",()=>{
 
 
 export const dataType = (datatype ,light)=>{
-    
-    if(datatype === "chart"){
-        console.log("chart")
+    console.log(datatype, "light", light)
+    if(datatype === "sensor"){
         parser.on("data", async(data)=>{
             console.log('got word from arduino: ', data);
             data.split(",").map((word)=>parseInt(word)).map((word)=>array.push(word));
@@ -36,6 +35,7 @@ export const dataType = (datatype ,light)=>{
     }else if(datatype === "led"){
         switch(light){
             case 'a':
+                console.log('a');
                 port.write('a');
                 break;
             case 'b':
