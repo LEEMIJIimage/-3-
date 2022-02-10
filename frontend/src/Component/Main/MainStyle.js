@@ -25,6 +25,7 @@ const IlluminationText = styled.p`
   font-size: 15pt;
   color: white;
   margin-bottom: 0%;
+  fon
 `;
 const IlluminationNumber = styled.p`
   font-size: 40pt;
@@ -96,13 +97,17 @@ const MiddleContent = styled.div`
   text-underline-offset: 0.4cm;
   text-decoration-thickness: 3px; */
   color: white;
+  align-items: center;
 `;
 const TemperatureNuber = styled.div`
-  font-size: 40pt;
+  font-size: 72px;
   color: white;
 `;
 const TemperatureText = styled.div`
+  text-align: initial;
+  font-size: 24px;
   color: white;
+  margin-left: 12px;
 `;
 const Bottom = styled.div`
   display: flex;
@@ -172,7 +177,6 @@ const WateringText = styled.div`
   font-size: 15pt;
 `;
 const ChartBox3 = styled.div`
-  width: 300px;
   height: 230px;
   background-color: white;
   opacity: 0.4;
@@ -192,13 +196,11 @@ const ModalBackground = styled.div`
 `;
 
 const Button2 = styled.button`
-  box-shadow: inset 0px -1px 0px 0px #9fb4f2;
-  background-color: transparent;
-  border: 5px solid #4e6096;
   display: inline-block;
   cursor: pointer;
   color: black;
   font-family: Arial;
+  border-radius: 0 16px 16px 0;
   font-size: 13px;
   font-weight: bold;
   padding: 22px 47px;
@@ -208,6 +210,44 @@ const Button2 = styled.button`
     background-color: #6c7c7c;
   }
 `;
+
+const OnButton = styled.button`
+  height: 25%;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 24px;
+  border-radius: ${props => {
+    if (props.check === "top") {
+      return "16px 0 0 0;";
+    } if (props.check === "bottom") {
+      return "0 0 0 16px;";
+    }
+    return "0";
+  }};
+  &:hover {
+    background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    background-color: #6c7c7c;
+  }
+`;
+
+const OnLightLevelDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &:first-child {
+    border-radius: 16px 0 0 0;
+  }
+  &:last-child {
+    border-radius: 0 0 0 16px;
+  }
+}
+`;
+
 export {
   Button,
   Top,
@@ -229,9 +269,11 @@ export {
   HumidityNumber,
   HumidityText,
   Button2,
+  OnButton,
   ChartBox3,
   ChartBox2,
   MiniChartBox2,
   WateringNumber,
   WateringText,
+  OnLightLevelDiv
 };

@@ -5,16 +5,25 @@ export default {
   startEndDate: () => {
     return api.get("/startend");
   },
-  getChartdata: (req) => {
-    return api.post("/startend", req);
+  getChartData: (req) => {
+    return api.post("/getChartData", req);
   },
   Alldata: () => {
     return api.get("/");
   },
-  lightOn: () => {
-    return api.get("/lightOn");
+  lightOnE: () => {
+    return api.get("/lighte");
+  },
+  lightOnD: () => {
+    return api.get("/lightd");
+  },
+  lightOnC: () => {
+    return api.get("/lightc");
+  },
+  lightOnB: () => {
+    return api.get("/lightb");
   },
   lightOff: () => {
-    return api.get("/lightOff");
+    return api.get("/lighta");
   },
 };

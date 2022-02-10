@@ -1,3 +1,4 @@
+/* eslint-disable no-case-declarations */
 import React, { useState, useEffect } from "react";
 import { BsFillCloudSunFill } from "react-icons/bs";
 import { WiHumidity } from "react-icons/wi";
@@ -23,12 +24,14 @@ import {
   MiddleWapContent,
   HumidityNumber,
   Button2,
+  OnButton,
   ChartBox3,
   ChartBox2,
   HumidityText,
   WateringNumber,
   MiniChartBox2,
   WateringText,
+  OnLightLevelDiv
 } from "./MainStyle";
 import Chart from "../Chart/ChartPage";
 import sendApi from "../../apis/sendApi";
@@ -52,9 +55,27 @@ function Main() {
     setWater(data.water);
   }, []);
 
-  const onClickOn = async () => {
-    const { data } = await sendApi.lightOn();
-    alert(data);
+  const onClickOn = async (v) => {
+    switch (v) {
+      case "e":
+        const { data } = await sendApi.lightOnE();
+        alert(`Light 100% ${data}`);
+        break;
+      case "d":
+        const dataD = await sendApi.lightOnD();
+        alert(`Light 60% ${dataD.data}`);
+        break;
+      case "c":
+        const dataC = await sendApi.lightOnC();
+        alert(`Light 40% ${dataC.data}`);
+        break;
+      case "b":
+        const dataB = await sendApi.lightOnB();
+        alert(`Light 20% ${dataB.data}`);
+        break;
+      default:
+        break;
+    }
   };
   const onClickOff = async () => {
     const { data } = await sendApi.lightOff();
@@ -105,6 +126,16 @@ function Main() {
           <HumidityText>Humidity</HumidityText>
         </ChartBox>
 
+        <ChartBox3>
+          <OnLightLevelDiv>
+            <OnButton check="top" onClick={onClickOn("e")}>Light 100%</OnButton>{" "}
+            <OnButton onClick={onClickOn("d")}>Light 60%</OnButton>{" "}
+            <OnButton onClick={onClickOn("c")}>Light 40%</OnButton>{" "}
+            <OnButton check="bottom" onClick={onClickOn("b")}>Light 20%</OnButton>{" "}
+          </OnLightLevelDiv>
+          <Button2 onClick={onClickOff}>Turn off the light.</Button2>{" "}
+        </ChartBox3>
+
         <ChartBox2>
           <MiniChartBox2>
             <WateringNumber>{Water}</WateringNumber>
@@ -113,10 +144,6 @@ function Main() {
           <WateringText>Soil moisture.</WateringText>
         </ChartBox2>
 
-        <ChartBox3>
-          <Button2 onClick={onClickOff}>Turn off the light.</Button2>{" "}
-          <Button2 onClick={onClickOn}>Turn on the light.</Button2>{" "}
-        </ChartBox3>
       </Bottom>
       {chart ? <ModalBackground /> : <None />}
       {chart ? <Chart onclickGetOut={onclickChartButton} /> : <None />}
