@@ -105,7 +105,7 @@ function Main() {
       <Middle>
         <MiddleWapContent>
           <MiddleContent>
-            <TemperatureNuber> {Tep}</TemperatureNuber>
+            <TemperatureNuber> {Humidity}</TemperatureNuber>
             <FaTemperatureLow size={60} margin- />
             <TemperatureText>
               {" "}
@@ -120,7 +120,7 @@ function Main() {
       <Bottom>
         <ChartBox>
           <MiniChartBox1>
-            <HumidityNumber>{Humidity}</HumidityNumber>
+            <HumidityNumber>{Tep}</HumidityNumber>
             <WiHumidity size={70} color="black" />
           </MiniChartBox1>
           <HumidityText>Humidity</HumidityText>
