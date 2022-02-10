@@ -3,7 +3,6 @@ import cors from "cors";
 import sensorRouter from "./routers/sensorRouter.js";
 import "./db.js";
 import "./getSensor.js";
-import "./sendLED.js";
 
 const PORT = 4000;
 

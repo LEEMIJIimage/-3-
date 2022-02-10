@@ -4,8 +4,11 @@ import {
   data,
   startend,
   getChartData,
-  lightOn,
-  lightOff,
+  lighta,
+  lightb,
+  lightc,
+  lightd,
+  lighte,
 } from "../controllers/sensorController.js";
 
 const sensorRouter = express.Router();
@@ -14,7 +17,13 @@ sensorRouter.get("/", home);
 sensorRouter.get("/data", data);
 sensorRouter.get("/startend", startend);
 sensorRouter.post("/getChartData", getChartData);
-sensorRouter.get("/lightOn", lightOn);
-sensorRouter.get("/lightOff", lightOff);
+
+sensorRouter.get("/lighta", lighta);
+sensorRouter.get("/lightb", lightb);
+sensorRouter.get("/lightc", lightc);
+sensorRouter.get("/lightd", lightd);
+sensorRouter.get("/lighte", lighte);
+
+
 
 export default sensorRouter;

@@ -13,6 +13,7 @@ let array = [];
 port.on("open",()=>{
     console.log('serial open');
 });
+console.log("~~~~");
 
 parser.on("data", async(data)=>{
     console.log('got word from arduino: ', data);
@@ -27,3 +28,25 @@ parser.on("data", async(data)=>{
     array = [];
     port.write(data);
 });
+
+export const handelLed = (light) => {
+    switch(light){
+        case 'a':
+            port.write('a');
+            break;
+        case 'b':
+            port.write('b');
+            break;
+        case 'c':
+            port.write('c');
+            break;
+        case 'd':
+            port.write('d');
+            break;
+        case 'e':
+            port.write('e');
+            break;        
+    }
+  };
+
+setTimeout(handelLed, 5000);

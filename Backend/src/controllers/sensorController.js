@@ -1,6 +1,6 @@
 import Sensor from "../models/Sensor.js";
 import moment from "moment";
-import { handelLed } from "../sendLED.js";
+import { handelLed } from "../getSensor.js";
 
 export const home = async (req, res) => {
   const sensors = await Sensor.findOne().sort({ _id: -1 }).limit(1);
@@ -85,11 +85,24 @@ export const getChartData = async (req, res) => {
   }
 };
 
-export const lightOn = (req, res) => {
-  let light = "o";
+export const lighta = (req, res) => {
+  let light = "a";
   handelLed(light);
 };
-export const lightOff = (req, res) => {
-  let light = "x";
+export const lightb = (req, res) => {
+  let light = "b";
   handelLed(light);
 };
+export const lightc = (req, res) => {
+  let light = "c";
+  handelLed(light);
+};
+export const lightd = (req, res) => {
+  let light = "d";
+  handelLed(light);
+};
+export const lighte = (req, res) => {
+  let light = "e";
+  handelLed(light);
+};
+
