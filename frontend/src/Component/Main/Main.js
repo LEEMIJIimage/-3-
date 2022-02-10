@@ -128,10 +128,10 @@ function Main() {
 
         <ChartBox3>
           <OnLightLevelDiv>
-            <OnButton check="top" onClick={onClickOn("e")}>Light 100%</OnButton>{" "}
-            <OnButton onClick={onClickOn("d")}>Light 60%</OnButton>{" "}
-            <OnButton onClick={onClickOn("c")}>Light 40%</OnButton>{" "}
-            <OnButton check="bottom" onClick={onClickOn("b")}>Light 20%</OnButton>{" "}
+            <OnButton check="top" onClick={() => onClickOn("e")}>Light 100%</OnButton>{" "}
+            <OnButton onClick={() => onClickOn("d")}>Light 60%</OnButton>{" "}
+            <OnButton onClick={() => onClickOn("c")}>Light 40%</OnButton>{" "}
+            <OnButton check="bottom" onClick={() => onClickOn("b")}>Light 20%</OnButton>{" "}
           </OnLightLevelDiv>
           <Button2 onClick={onClickOff}>Turn off the light.</Button2>{" "}
         </ChartBox3>
