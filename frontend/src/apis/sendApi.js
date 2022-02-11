@@ -12,18 +12,18 @@ export default {
     return api.get("/");
   },
   lightOnE: () => {
-    return api.get("/lighte");
+    return api.get("/light/on_100");
   },
   lightOnD: () => {
-    return api.get("/lightd");
+    return api.get("/light/on_60");
   },
   lightOnC: () => {
-    return api.get("/lightc");
+    return api.get("/light/on_40");
   },
   lightOnB: () => {
-    return api.get("/lightb");
+    return api.get("/light/on_20");
   },
   lightOff: () => {
-    return api.get("/lighta");
+    return api.get("/light/off");
   },
 };
