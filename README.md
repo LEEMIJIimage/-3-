@@ -8,6 +8,7 @@
 ---
  * 아두이노 시리얼 코드 -> 백엔드 시리얼 통신 
  * 프론트엔드 온도 습도 토양 정보 데이터 작성 -> 백엔드 데이터 요청
+ ![image](https://user-images.githubusercontent.com/50102538/153985528-509d7b3b-27cb-488f-a2a1-7c5887a3f422.png)
 
 stack
 ---
