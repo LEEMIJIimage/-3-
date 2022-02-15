@@ -1,4 +1,8 @@
 ## 2022 프로젝트 3조
+프로젝트 소개
+----
+[WIKI](https://github.com/LEEMIJIimage/-3-/wiki)
+
 프로젝트 주 내용 
 ---
  **프로젝트 주제 : 스마트팜 [ smart farm ]**
